@@ -1,0 +1,80 @@
+/* @font-face {
+  font-family: 'Overpass';
+  src: url('https://fonts.googleapis.com/css?family=Overpass');
+} */
+
+body {
+  font-size: 15px;
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  line-height: 1;
+}
+
+h1,
+p {
+  color: hsl(0, 0%, 100%);
+}
+
+.clearFix::before, .clearFix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* mainContainer */
+.mainContainer {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.listItemContainer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.listItemContainer ul li a {
+  color: hsl(0, 0%, 50%);
+  text-decoration: none;
+}
+
+/* innerContainer */
+.innerContainer {
+  max-width: 410px;
+  margin: 13.5% auto;
+  padding: 30px 32px;
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 25px;
+}
+
+.imgContainer {
+  width: 50px;
+  float: left;
+  text-align: center;
+  /* background-color: red; */
+  border-radius: 5px;
+}
+
+.headerContainer h1 {
+  padding: 50px 0 15px;
+  font-size: 25px;
+  letter-spacing: .1rem;
+}
+
+.contentContainer p {
+  line-height: 1.6;
+}
+
+.btnContainer {
+  text-align: center;
+}
+
+/* Mobile */
+/* @media screen and (max-width: 375px) {
+
+} */
+
+/* Feel free to remove these styles or customise in your own stylesheet 👍
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); } */
